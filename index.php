@@ -2,13 +2,6 @@
 	<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 		<title>David Shapiro - Profile</title>
 		<?php include 'header0.php'; ?>
-		
-		<!-- //////// jQuery ////////  -->
-		<script src="scripts/jquery-1.3.1.min.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="scripts/fancybox/jquery.fancybox-1.2.6.css" media="screen" />
-		<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.2.6.pack.js"></script>
-		<script type="text/javascript" src="scripts/myfunk.js"></script>
-
 		<?php
 			$topmenu = 0;
 			$rightmenu = 0;
@@ -24,9 +17,9 @@
 		<span>
 			<h2>
 				<div style="border: 1px solid #666666; padding: 5px; float: left; margin-right: 30px; margin-left: 20px; margin-bottom: 20px; ">
-					<a class="lightbox" rel="mypics" href="gallery/D1.jpg" title="David Shapiro" >
-						<img src="gallery/D1.jpg" width="100" height="130" alt="David Shapiro" />
-				       	</a>
+					<a data-fancybox="gallery" href="gallery/D1.jpg">
+						<img width="100" height="130" src="gallery/D1.jpg">
+					</a>
 				</div>
 				<table id="socialstatus" style="float: right; ">
   					<tr>
