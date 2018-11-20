@@ -113,11 +113,11 @@
             			<td valign="top">
             				<div id="contact">
 						<ul id="profileContact">
-							<li>
+								<li>
         							<i class="fa fa-envelope-o"></i>
         							<a href="mailto:d321973@mail.com">d321973@mail.com</a>
       							</li>
-							<li>
+								<li>
         							<i class="fa fa-phone"></i> +1 949-444-2260
       							</li>
       							<li>
@@ -128,10 +128,6 @@
       								<i class="fa fa-male"></i>
       								<a href="resume/">My Online Resume</a>
       							</li>
-							<li>
-								<i class="fa fa-file-o"></i>
-								<a target="_blank" href="resume/davidresume2015.docx" target="_blank">Resume in Word format</a>
-							</li>
 						</ul>
 					</div>
 				</td>
