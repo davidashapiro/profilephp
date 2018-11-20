@@ -2,20 +2,7 @@
 	<head>
 		<title>David Shapiro - Gallery</title>
 		<?php include 'header0.php'; ?>
-        <link href='css/screen-styles.css' rel='stylesheet' type='text/css'>
 	
-		<!-- //////// jQuery ////////  -->
-		<script src="scripts/jquery-1.3.1.min.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="scripts/fancybox/jquery.fancybox-1.2.6.css" media="screen" />
-		<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.2.6.pack.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$("a.lightbox").fancybox({
-					'overlayOpacity': 0.7,
-					'overlayColor'	: '#333'
-				});
-			});
-		</script>
 		<style>
 			img {
 				margin: 2px;
@@ -36,33 +23,33 @@
 		?>
 		<span>
 					<h4>This is me in 2016 - 2018 after Tara was gone.</h4><br/>
-					<a class="lightbox" rel="mypics" href="gallery/D1.jpg" title="David Shapiro" >
-						<img src="gallery/D1.jpg" width="80" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D1.jpg">
+						<img width="80" height="100" src="gallery/D1.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D2.jpg" title="David Shapiro" >
-						<img src="gallery/D2.jpg" width="80" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D2.jpg">
+						<img width="80" height="100" src="gallery/D2.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D3.jpg" title="David Shapiro" >
-						<img src="gallery/D3.jpg" width="80" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D3.jpg">
+						<img width="80" height="100" src="gallery/D3.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D4.jpg" title="David Shapiro" >
-						<img src="gallery/D4.jpg" width="80" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D4.jpg">
+						<img width="80" height="100" src="gallery/D4.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D8.jpg" title="David Shapiro" >
-						<img src="gallery/D8.jpg" width="90" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D5.jpg">
+						<img width="90" height="100" src="gallery/D5.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D9.jpg" title="David Shapiro" >
-						<img src="gallery/D9.jpg" width="90" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D6.jpg">
+						<img width="140" height="100" src="gallery/D6.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D5.jpg" title="David Shapiro" >
-						<img src="gallery/D5.jpg" width="90" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D7.jpg">
+						<img width="100" height="100" src="gallery/D7.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/D6.jpg" title="David Shapiro" >
-						<img src="gallery/D6.jpg" width="140" height="100" alt="David Shapiro" />
+					<a data-fancybox="gallery" href="gallery/D8.jpg">
+						<img width="90" height="100" src="gallery/D8.jpg">
 					</a>
-					<!--<a class="lightbox" rel="mypics" href="gallery/D7.jpg" title="David Shapiro" >
-						<img src="gallery/D7.jpg" width="100" height="100" alt="David Shapiro" />
-					</a>-->
+					<a data-fancybox="gallery" href="gallery/D9.jpg">
+						<img width="90" height="100" src="gallery/D9.jpg">
+					</a>
 		</span>
 		<?php include 'footer.php'; ?>
 	</body>
