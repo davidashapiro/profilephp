@@ -2,20 +2,6 @@
 	<head>
 		<title>David Shapiro - Gallery</title>
 		<?php include 'header0.php'; ?>
-        <link href='css/screen-styles.css' rel='stylesheet' type='text/css'>
-	
-		<!-- //////// jQuery ////////  -->
-		<script src="scripts/jquery-1.3.1.min.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="scripts/fancybox/jquery.fancybox-1.2.6.css" media="screen" />
-		<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.2.6.pack.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$("a.lightbox").fancybox({
-					'overlayOpacity': 0.7,
-					'overlayColor'	: '#333'
-				});
-			});
-		</script>
 		<style>
 			img {
 				margin: 2px;
@@ -36,50 +22,51 @@
 		?>
 		<span>
 					<h4> This is me as Tara In 2013 - 2015</h4> <br/>
-					<a class="lightbox" rel="mypics" href="gallery/T1.jpg" title="Tara Dunn" >
-						<img src="gallery/T1.jpg" width="80" height="100" alt="Tara Dunn" />
+					
+					<a data-fancybox="gallery" href="gallery/T1.jpg">
+						<img width="80" height="100" src="gallery/T1.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T2.jpg" title="Tara Dunn" >
-						<img src="gallery/T2.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T2.jpg">
+						<img width="80" height="100" src="gallery/T2.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T3.jpg" title="Tara Dunn" >
-						<img src="gallery/T3.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T3.jpg">
+						<img width="80" height="100" src="gallery/T3.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T4.jpg" title="Tara Dunn" >
-						<img src="gallery/T4.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T4.jpg">
+						<img width="80" height="100" src="gallery/T4.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T5.jpg" title="Tara Dunn" >
-						<img src="gallery/T5.jpg" width="160" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T5.jpg">
+						<img width="160" height="100" src="gallery/T5.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T6.jpg" title="Tara Dunn" >
-						<img src="gallery/T6.jpg" width="100" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T6.jpg">
+						<img width="100" height="100" src="gallery/T6.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T7.jpg" title="Tara Dunn" >
-						<img src="gallery/T7.jpg" width="160" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T7.jpg">
+						<img width="160" height="100" src="gallery/T7.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T8.jpg" title="Tara Dunn" >
-						<img src="gallery/T8.jpg" width="180" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T8.jpg">
+						<img width="180" height="100" src="gallery/T8.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T9.jpg" title="Tara Dunn" >
-						<img src="gallery/T9.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T9.jpg">
+						<img width="80" height="100" src="gallery/T9.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T10.jpg" title="Tara Dunn" >
-						<img src="gallery/T10.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T10.jpg">
+						<img width="80" height="100" src="gallery/T10.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T11.jpg" title="Tara Dunn" >
-						<img src="gallery/T11.jpg" width="100" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T11.jpg">
+						<img width="100" height="100" src="gallery/T11.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T12.jpg" title="Tara Dunn" >
-						<img src="gallery/T12.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T12.jpg">
+						<img width="80" height="100" src="gallery/T12.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T13.jpg" title="Tara Dunn" >
-						<img src="gallery/T13.jpg" width="110" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T13.jpg">
+						<img width="110" height="100" src="gallery/T13.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T14.jpg" title="Tara Dunn" >
-						<img src="gallery/T14.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T14.jpg">
+						<img width="80" height="100" src="gallery/T14.jpg">
 					</a>
-					<a class="lightbox" rel="mypics" href="gallery/T15.jpg" title="Tara Dunn" >
-						<img src="gallery/T15.jpg" width="80" height="100" alt="Tara Dunn" />
+					<a data-fancybox="gallery" href="gallery/T15.jpg">
+						<img width="80" height="100" src="gallery/T15.jpg">
 					</a>
 		</span>
 		<?php include 'footer.php'; ?>
