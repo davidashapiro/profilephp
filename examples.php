@@ -78,5 +78,6 @@
 			</div>
 		</span>
 		<?php include 'footer.php'; ?>
+		<?php include 'counter.php'; ?>
 	</body>
 </html>

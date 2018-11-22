@@ -108,9 +108,9 @@
   		return $data;
 	}
 ?>
-                <table style="font-weight: bold; font-size: 12pt;">
+                <table style="font-weight: bold; font-size: 12pt; width: 100%; ">
             		<tr>
-            			<td valign="top">
+            			<td valign="top" align="left">
             				<div id="contact">
 						<ul id="profileContact">
 								<li>
@@ -131,7 +131,7 @@
 						</ul>
 					</div>
 				</td>
-				<td>
+				<td align="right">
 					<div class="map">
 						<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=230+old+oak+dr+Wheeling+60090&amp;output=embed">
 						</iframe>
@@ -150,7 +150,7 @@
 							<span class="error">* <?php echo $emailErr;?>
 							<textarea rows="8" name="comment" id="comment" placeholder="* Your comment here"></textarea>
 							<hr class="colorgraph">
-							<div style="width: 30%; ">
+							<div style="width: 30%; display:inline; ">
 								<a href="#" class="button" onclick="document.getElementById('contactmeform').submit();">
 								Send Message</a>
 							</div>

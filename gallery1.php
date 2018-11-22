@@ -44,13 +44,14 @@
 					<a data-fancybox="gallery" href="gallery/D7.jpg">
 						<img width="100" height="100" src="gallery/D7.jpg">
 					</a>
-					<a data-fancybox="gallery" href="gallery/D8.jpg">
+					<!-- <a data-fancybox="gallery" href="gallery/D8.jpg">
 						<img width="90" height="100" src="gallery/D8.jpg">
 					</a>
 					<a data-fancybox="gallery" href="gallery/D9.jpg">
 						<img width="90" height="100" src="gallery/D9.jpg">
-					</a>
+					</a> -->
 		</span>
 		<?php include 'footer.php'; ?>
+		<?php include 'counter.php'; ?>
 	</body>
 </html>
