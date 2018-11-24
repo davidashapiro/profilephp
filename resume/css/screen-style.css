@@ -46,7 +46,7 @@ body{
 		.first-cv-section{ margin:0; padding:10px 40px; }
 			
 			.person{ float:left; margin-top:10px; width:60%; }
-				.person img{ float:left; margin-right:25px; padding:10px; }
+				.person img{ float:left; margin-right:25px; padding:5px; }
 				.person  h1{ margin-top:10px; }
 			
 			#contact-info{ float:right; margin-right:10px; }
